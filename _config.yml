@@ -1,12 +1,12 @@
-name : Foundation5/github pages/Jykill starter
-brand : My Project
-description : This is the description of my project
-keyword : 
-url : http://daigofuji.github.io/jekyll-foundation-6-starter/
-email : daigo@daigofujiwara.com
+name : Center for Spatial Inclusion
+brand: Centre for Spatial Inclusion
+description : Designing cities for everybody.
+keyword :
+url : http://kimadactyl.github.io/csi-site/
+email : s.white@mmu.ac.uk
 twitter : DaigoFuji
-github : DaigoFuji
-author : Daigo Fujiwara
+github : kimadactyl
+author : Kim Foale
 year : 2016
 markdown : kramdown
 exclude :
