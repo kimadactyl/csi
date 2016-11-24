@@ -1,0 +1,47 @@
+---
+layout: default
+title: People and Partners
+permalink: /people/
+---
+
+<section role="main">
+  <div class="small-12 columns">
+    <h1 class="mvl text-center">{{ page.title }}</h1>
+  </div>
+  <div class="small-12 medium-6 columns">
+
+    <h2>CSI Staff</h2>
+
+    <ul class="no-bullet">
+      {% for member in site.data.staff %}
+        <li>
+          <h3>{{ member.name }}</h3>
+          <p><strong>{{ member.position }}</strong></p>
+          <p>{{ member.description }}</p>
+          {% if member.url %}
+            <p><a href="{{ member.url }}"><i class="fa fa-external-link-square" aria-hidden="true"></i> Visit {{member.name}}'s website</a></p>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="small-12 medium-6 columns">
+    <h2>Partners</h2>
+    <ul>
+      {% for partner in site.data.partners %}
+        <li>
+          <strong>
+            {% if partner.url %}
+              <a href="{{ partner.url }}">{{ partner.name }}</a>.
+            {% else %}
+              {{ partner.name }}.
+            {% endif %}
+          </strong>
+          {{ partner.institution }}.
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+</section>
