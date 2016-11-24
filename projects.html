@@ -2,6 +2,7 @@
 layout: default
 title: Our Projects
 description: Interventions for spatial justice
+permalink: /projects/
 ---
 
 {% assign sorted_projects = (site.projects| sort: 'start') | reverse %}
@@ -9,9 +10,10 @@ description: Interventions for spatial justice
   {% for project in sorted_projects %}
     <div class="project small-12 medium-6 large-4 columns">
       <h3>
-        <a href="{{ project.url }}">{{project.start}}. {{project.title}}</a>
+        <a href="{{ site.github.url }}{{ project.url }}">{{project.title}}</a>
       </h3>
-      <img src="{{ project.url }}/{{ project.preview }}">
+      <p> {{ project.start }}{% if project.finish %} &mdash; {{ project.finish }}{% endif %}</p>
+      <img src="{{ site.github.url }}{{ project.url }}preview.jpg">
     </div>
   {% endfor %}
 </div>
