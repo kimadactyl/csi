@@ -4,7 +4,7 @@ description: Designing cities for everybody.
 keyword:
 url: http://kimadactyl.github.io/csi-site/
 email: s.white@mmu.ac.uk
-twitter: DaigoFuji
+twitter: kimadactyl
 github: kimadactyl
 author: Kim Foale
 year: 2016
@@ -20,5 +20,5 @@ defaults:
     scope:
       type: "projects"
     values:
-      layout: default
+      layout: "project"
       preview: "./preview.jpg"
