@@ -22,3 +22,5 @@ defaults:
     values:
       layout: "project"
       preview: "./preview.jpg"
+github:
+  url: http://localhost:4000
