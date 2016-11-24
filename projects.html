@@ -11,15 +11,15 @@ permalink: /projects/
 
     {% assign sorted_projects = (site.projects| sort: 'start') | reverse %}
     <div class="js-masonry row small-up-1 medium-up-2 large-up-3">
-      {% for project in sorted_projects %}
+      {% for p in sorted_projects %}
         <div class="project column">
           <div class="project__info">
             <h3>
-              <a href="{{ site.github.url }}{{ project.url }}">{{project.title}}</a>
+              <a href="{{ site.github.url }}{{ p.url }}">{{p.title}}</a>
             </h3>
-            <p class="project__date">{{ project.start }}{% if project.finish %} &mdash; {{ project.finish }}{% endif %}</p>
+            <p class="project__date">{{ p.start }}{% if p.finish %} &mdash; {{ p.finish }}{% endif %}</p>
           </div>
-          <img class="project__image" src="{{ site.github.url }}{{ project.url }}preview.jpg">
+          <img class="project__image" src="{{ site.github.url }}{{ p.url }}preview.jpg">
         </div>
       {% endfor %}
     </div>
