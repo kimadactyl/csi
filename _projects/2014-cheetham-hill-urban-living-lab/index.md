@@ -1,7 +1,6 @@
 ---
 title: Cheetham Hill Urban Living Lab
 start: 2014
-layout: default
 ---
 
 This study was commissioned by North Manchester Regeneration team, Agefriendly

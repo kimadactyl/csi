@@ -14,3 +14,10 @@ exclude:
 collections:
   projects:
     output: true
+defaults:
+  -
+    scope:
+      type: "projects"
+    values:
+      layout: default
+      preview: "./preview.jpg"

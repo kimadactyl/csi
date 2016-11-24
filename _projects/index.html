@@ -1,0 +1,25 @@
+---
+layout: default
+title: Our Projects
+description: Interventions for spatial justice
+---
+
+{% assign sorted_projects = (site.projects| sort: 'start') | reverse %}
+<div class="js-masonry">
+  {% for project in sorted_projects %}
+    <div class="project small-12 medium-6 large-4 columns">
+      <h3>
+        <a href="{{ project.url }}">{{project.start}}. {{project.title}}</a>
+      </h3>
+      <img src="{{ project.url }}/{{ project.preview }}">
+    </div>
+  {% endfor %}
+</div>
+
+<script>
+  $(window).load(function(){
+    $('.js-masonry').masonry({
+      itemSelector: '.js-masonry div'
+    });
+  });
+</script>
