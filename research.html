@@ -36,7 +36,7 @@ permalink: /research/
   </div>
 
   <div class="small-12 columns">
-    {% assign sorted_projects = (site.projects | where: "type", "consultancy" | sort: 'start') | reverse %}
+    {% assign sorted_projects = (site.work | where: "type", "consultancy" | sort: 'start') | reverse %}
     <div class="js-masonry row small-up-1 medium-up-2 large-up-3">
       {% for p in sorted_projects %}
         <div class="project column">

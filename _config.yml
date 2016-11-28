@@ -14,13 +14,13 @@ baseurl: /csi-site
 exclude:
   - node_modules
 collections:
-  projects:
+  work:
     output: true
-    permalink: /projects/:title/
+    permalink: /work/:title/
 defaults:
   -
     scope:
-      type: "projects"
+      type: "work"
     values:
-      layout: "project"
+      layout: "work"
       preview: "./preview.jpg"
