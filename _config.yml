@@ -9,6 +9,7 @@ github: kimadactyl
 author: Kim Foale
 year: 2016
 markdown: kramdown
+destination: docs
 exclude:
   - node_modules
 collections:
