@@ -2,7 +2,7 @@
 title: "Manchester: A Tale of Two Cities"
 start: 2012
 finish: 2013
-type: ma
+type: ma-yearbook
 ---
 
 MSA's student yearbook for 2013 leavers.

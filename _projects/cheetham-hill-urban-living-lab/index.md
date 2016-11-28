@@ -1,10 +1,12 @@
 ---
 title: Cheetham Hill Urban Living Lab
 start: 2014
+type: consultancy
 tags:
   - age-friendly
-type: consultancy
 ---
+
+An urban design and community engagement project exploring dimensions of spatial exclusion in North Manchester.
 
 This study was commissioned by North Manchester Regeneration team, Agefriendly
 Manchester and ZEST North Manchester Healthy Living Network. The

@@ -14,10 +14,20 @@ permalink: /projects/
       {% for p in sorted_projects %}
         <div class="project column">
           <div class="project__info">
+            <div class="project__type">
+              {% case p.type %}
+              {% when 'consultancy' %}
+              Consultancy
+              {% when 'phd' %}
+              PhD Thesis
+              {% when 'ma-yearbook' %}
+              MA Yearbook
+              {% endcase %}
+            </div>
             <h3>
               <a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
             </h3>
-            <p class="project__date">{{ p.start }}{% if p.finish %} &mdash; {{ p.finish }}{% endif %}</p>
+            <div class="project__date">{{ p.start }}{% if p.finish %} &mdash; {{ p.finish }}{% endif %}</div>
           </div>
           <img class="project__image" src="{{ site.baseurl }}{{ p.url }}preview.jpg">
         </div>
