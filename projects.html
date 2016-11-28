@@ -15,11 +15,11 @@ permalink: /projects/
         <div class="project column">
           <div class="project__info">
             <h3>
-              <a href="{{ site.github.url }}{{ p.url }}">{{ p.title }}</a>
+              <a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
             </h3>
             <p class="project__date">{{ p.start }}{% if p.finish %} &mdash; {{ p.finish }}{% endif %}</p>
           </div>
-          <img class="project__image" src="{{ site.github.url }}{{ p.url }}preview.jpg">
+          <img class="project__image" src="{{ site.baseurl }}{{ p.url }}preview.jpg">
         </div>
       {% endfor %}
     </div>
