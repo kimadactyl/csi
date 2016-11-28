@@ -1,6 +1,7 @@
 ---
 title: Gilles Deleuze and the Project of Architecture
 start: 2014
+type: phd
 ---
 
 ## an expressionist design-research methodology

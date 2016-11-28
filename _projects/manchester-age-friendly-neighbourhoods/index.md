@@ -3,6 +3,7 @@ title: Manchester Age Friendly Neighbourhoods
 start: 2016
 finish: 2020
 highlight: true
+type: consultancy
 ---
 
 We are the Manchester Age-friendly Neighbourhoods Team, a group aiming to bring people together to develop plans to help make the neighbourhoods of Burnage, Moston & New Moston, Hulme & Moss Side and Miles Platting better for older residents
@@ -15,7 +16,7 @@ We are working in the following neighbourhoods:
   * Hulme & Moss Side
   * Moston & New Moston
   * Miles Platting
-  *
+
 A new resident-led Partnership has been set up in each neighbourhood to promote active ageing, increase older people’s participation and to make the neighbourhood more Age Friendly. We are going to be working with residents to create an Age-Friendly Action Plan which will develop activities and projects to make the neighbourhood more Age-Friendly.
 
 MAFN are supported by a Steering Group which includes partners from Southways, Manchester City Council, Age Friendly Manchester, NHS/ CCG, MMU and representatives of each Neighbourhood Partnership Board.
