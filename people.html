@@ -5,49 +5,52 @@ permalink: /people/
 ---
 
 <section role="main">
-  <div class="small-12 columns">
-    <h1 class="mvl text-center">{{ page.title }}</h1>
-  </div>
+
+  {% include title.html %}
+
   <div class="row mbl">
     <div class="medium-9 large-7 small-centered column">
       <p class="mbm">The Centre for Spatial Inclusion is hosted by the Manchester School of Architecture, which is a joint School between the Manchester Universities.</p>
       <p class="mbm">We have a number of internal academic partners from across disciplines, key external cross-sector practitioner partners and a large number of community connections.</p>
     </div>
   </div>
-  <div class="small-12 medium-6 columns">
 
-    <h2>cSI Staff</h2>
+  <div class="row">
+    <div class="small-12 medium-6 columns">
 
-    <ul class="no-bullet">
-      {% for member in site.data.staff %}
-        <li>
-          <h3>{{ member.name }}</h3>
-          <p><strong>{{ member.position }}</strong></p>
-          <p>{{ member.description }}</p>
-          {% if member.url %}
-            <p><a href="{{ member.url }}"><i class="fa fa-external-link-square" aria-hidden="true"></i> Visit {{member.name}}'s website</a></p>
-          {% endif %}
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
+      <h2>cSI Staff</h2>
 
-  <div class="small-12 medium-6 columns">
-    <h2>Partners</h2>
-    <ul>
-      {% for partner in site.data.partners %}
-        <li>
-          <strong>
-            {% if partner.url %}
-              <a href="{{ partner.url }}">{{ partner.name }}</a>,
-            {% else %}
-              {{ partner.name }},
+      <ul class="no-bullet">
+        {% for member in site.data.staff %}
+          <li>
+            <h3>{{ member.name }}</h3>
+            <p><strong>{{ member.position }}</strong></p>
+            <p>{{ member.description }}</p>
+            {% if member.url %}
+              <p><a href="{{ member.url }}"><i class="fa fa-external-link-square" aria-hidden="true"></i> Visit {{member.name}}'s website</a></p>
             {% endif %}
-          </strong>
-          {{ partner.institution }}.
-        </li>
-      {% endfor %}
-    </ul>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="small-12 medium-6 columns">
+      <h2>Partners</h2>
+      <ul>
+        {% for partner in site.data.partners %}
+          <li>
+            <strong>
+              {% if partner.url %}
+                <a href="{{ partner.url }}">{{ partner.name }}</a>,
+              {% else %}
+                {{ partner.name }},
+              {% endif %}
+            </strong>
+            {{ partner.institution }}.
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 
 </section>
