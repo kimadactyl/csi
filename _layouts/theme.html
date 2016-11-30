@@ -4,12 +4,15 @@
 
       <div class="small-12 columns">
         <h1 class="mtl">{{ page.title }}</h1>
-        <h2 class="mbm"><small>{{ page.subtitle }}</small></h2>
-        {% if page.finish %}
-          <h3>{{ page.start }} &mdash; {{ page.finish }}</h3>
-        {% else %}
-          <h3>{{ page.start }}</h3>
-        {% endif %}
+        <h2><small>{{ page.subtitle }}</small></h2>
+        <ul class="tabs mbm" data-tabs id="example-tabs">
+          <li class="tabs-title is-active">
+            <a href="#panel1" aria-selected="true">Tab 1</a>
+          </li>
+          <li class="tabs-title">
+            <a href="#panel2">Tab 2</a>
+          </li>
+        </ul>
       </div>
     </div>
 

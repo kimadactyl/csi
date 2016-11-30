@@ -3263,7 +3263,7 @@ table.hover tr:nth-of-type(even):hover {
   margin: 0;
   list-style-type: none;
   background: #fefefe;
-  border: 1px solid #e6e6e6; }
+  border: 1px solid transparent; }
   .tabs::before, .tabs::after {
     content: ' ';
     display: table; }
@@ -3291,7 +3291,7 @@ table.hover tr:nth-of-type(even):hover {
   float: left; }
   .tabs-title > a {
     display: block;
-    padding: 1.25rem 1.5rem;
+    padding: 0.25rem 1.5rem;
     line-height: 1;
     font-size: 0.75rem; }
     .tabs-title > a:hover {
@@ -3302,16 +3302,16 @@ table.hover tr:nth-of-type(even):hover {
 .tabs-content {
   background: #fefefe;
   transition: all 0.5s ease;
-  border: 1px solid #e6e6e6;
+  border: 1px solid transparent;
   border-top: 0; }
 
 .tabs-content.vertical {
-  border: 1px solid #e6e6e6;
+  border: 1px solid transparent;
   border-left: 0; }
 
 .tabs-panel {
   display: none;
-  padding: 1rem; }
+  padding: 0rem; }
   .tabs-panel.is-active {
     display: block; }
 
@@ -4100,3 +4100,8 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
     background-color: #8bad93;
     color: white; }
+
+.tabs-title > a {
+  font-size: 1.5rem;
+  padding: 0.5em 1em;
+  font-weight: bold; }
