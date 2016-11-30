@@ -17,6 +17,9 @@ collections:
   work:
     output: true
     permalink: /work/:title/
+  theme:
+    output: true
+    permalink: /theme/:title/
 defaults:
   -
     scope:
@@ -24,3 +27,8 @@ defaults:
     values:
       layout: "work"
       preview: "./preview.jpg"
+  -
+    scope:
+      type: "theme"
+    values:
+      layout: "theme"
