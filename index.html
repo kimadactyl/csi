@@ -62,4 +62,19 @@ description: Sharing the city
     </div>
   </div>
 
+  <div class="row">
+    <div class="small-12 columns">
+      <h2 class="mbm">Highlighted Projects</h2>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="js-masonry small-up-1 medium-up-2 large-up-3">
+      {% assign projects = (site.work | where: "highlight", true | sort: 'start') | reverse %}
+      {% include project-grid.html key="true" %}
+    </div>
+  </div>
+
+  {% include masonry.html %}
+
 </section>

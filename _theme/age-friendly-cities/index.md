@@ -13,7 +13,15 @@ The key imperatives of increasingly aged and growing urban populations are often
 
 Increased valuation of the importance of community contribution and activity is predicated on the assumption that they are able to ameliorate currently intractable health and social care problems (for example by improving measurable outcomes and reducing budgetary pressure for institutional providers). However, there is currently a lack of coherent methodological and experimental explorations of these complex situations – both in terms of practically achieving these kinds of community-led holistic interventions and how we are able to account for their failures and successes.
 
-The key issues arising from a locality-based community-led health and integration agenda relate both to how we achieve and account for the following issues. 1) The activation and development of communities. 2) What potential this can have for health and well-being outcomes, 3.) The relationship of the above to place and environment. 4) The relationship of the above to the production of policy and evaluation. 5) The structure and performance of institutional actors.  These issues can be framed as research questions as follows:
+The key issues arising from a locality-based community-led health and integration agenda relate both to how we achieve and account for the following issues.
+
+  1. The activation and development of communities.
+  1. What potential this can have for health and well-being outcomes,
+  1. The relationship of the above to place and environment.
+  1. The relationship of the above to the production of policy and evaluation.
+  1. The structure and performance of institutional actors.  
+
+These issues can be framed as research questions as follows:
 
 ### How can Health and Well Being provisions be inclusive for ageing populations and integrated within communities?
 

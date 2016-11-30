@@ -10,27 +10,37 @@ permalink: /study/
 
   <div class="row">
     <div class="medium-9 large-7 small-centered column">
-      <p class="mbl">Boilerplate text here about CSI as a place to study from undergrad to world-class researcher</p>
+      <p class="mbl text-center">cSI is a great a place to study, from undergraduate courses to world-class research.</p>
     </div>
   </div>
 
 
-  <div class="row mbl">
-    <div class="small-12 medium-6 large-4 columns">
+  <div class="row mbl" data-equalizer data-equalize-on="medium">
+    <div class="small-12 medium-6 large-4 columns" data-equalizer-watch>
       <h3 class="text-center">Undergraduate study</h3>
       <p>MSA Praxis is a BA3 atelier at the Manchester School of Architecture.</p>
       <p>We investigate real communities whilst using the architectural, research and creative skills of the students in parallel with the deep local knowledge of residents.</p>
-      <p class="text-center"><a class="button" href="https://msapraxis.wordpress.com/">MSA Praxis Blog</a> <a class="button" href="#">Undergraduate prospectus</a></p>
+      <p class="text-center">
+        <a class="button" href="https://msapraxis.wordpress.com/">MSA Praxis Blog</a>
+        <a class="button" href="http://www.msa.ac.uk/study/ba/">BA (Hons) prospectus</a>
+      </p>
     </div>
-    <div class="small-12 medium-6 large-4 columns">
+    <div class="small-12 medium-6 large-4 columns" data-equalizer-watch>
       <h3 class="text-center">Postgraduate projects</h3>
       <p>MSA projects is a research led teaching and learning environment which operates alongside the delivery of live, commissioned design-research undertaken by cSI at the Manchester School of Architecture (MSA).</p>
       <p>It produces design-research addressing the spatial dimensions of social exclusion and community-engaged design projects developing inclusive urban environments.</p>
+      <p class="text-center">
+        <a class="button" href="http://projects.msa.ac.uk/">MSA Projects Blog</a>
+        <a class="button" href="http://www.msa.ac.uk/study/ma/architecture-and-urbanism/">MA prospectus</a>
+      </p>
     </div>
-    <div class="small-12 medium-6 large-4 columns">
+    <div class="small-12 medium-6 large-4 columns" data-equalizer-watch>
       <h3 class="text-center">PhD Opportunities</h3>
-      <p>Want to do a PhD at cSI?</p>
-      <p>Get in touch!</p>
+      <p>Our staff possess a unique and broad range of interests and expertise across theory and design, policy and practice.</p>
+      <p>Research students have their own rooms and facilities located physically at the heart of the School and are centrally involved in all scholarly activities</p>
+      <p class="text-center">
+        <a class="button" href="http://www.msa.ac.uk/study/phd/">PhD/MPhil information</a>
+      </p>
     </div>
   </div>
 
@@ -42,8 +52,10 @@ permalink: /study/
   </div>
 
   <div class="row">
-    {% assign projects = (site.work | where: "type", "phd" | sort: 'start') | reverse %}
-    {% include project-grid.html %}
+    <div class="js-masonry small-up-1 medium-up-2 large-up-3">
+      {% assign projects = (site.work | where: "type", "phd" | sort: 'start') | reverse %}
+      {% include project-grid.html %}
+    </div>
   </div>
 
   <div class="row">
@@ -54,8 +66,10 @@ permalink: /study/
   </div>
 
   <div class="row">
-    {% assign projects = (site.work | where: "type", "ma-yearbook" | sort: 'start') | reverse %}
-    {% include project-grid.html %}
+    <div class="js-masonry small-up-1 medium-up-2 large-up-3">
+      {% assign projects = (site.work | where: "type", "ma-yearbook" | sort: 'start') | reverse %}
+      {% include project-grid.html %}
+    </div>
   </div>
 
   {% include masonry.html %}

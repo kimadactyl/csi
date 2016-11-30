@@ -2,6 +2,7 @@
 title: Manchester Age Friendly Neighbourhoods
 start: 2016
 finish: 2020
+age-friendly: true
 highlight: true
 type: consultancy
 ---

@@ -4075,7 +4075,7 @@ h1, h2, h3, h4, h5, h6 {
   overflow-y: hidden; }
 
 .project {
-  display: relative;
+  position: relative;
   margin-bottom: 2em; }
   .project__info {
     position: absolute;

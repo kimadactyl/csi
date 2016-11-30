@@ -2,8 +2,7 @@
 title: An Alternative Age Friendly Handbook
 start: 2014
 type: consultancy
-tags:
-  - age-friendly
+age-friendly: true
 partners:
   - Age Friendly UK
   - RIBA
