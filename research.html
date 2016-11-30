@@ -38,22 +38,8 @@ permalink: /research/
   </div>
 
   <div class="row">
-
-      {% assign sorted_projects = (site.work | where: "type", "consultancy" | sort: 'start') | reverse %}
-      <div class="js-masonry small-up-1 medium-up-2 large-up-3">
-        {% for p in sorted_projects %}
-          <div class="project column">
-            <div class="project__info">
-              <h3>
-                <a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
-              </h3>
-              <div class="project__date">{{ p.start }}{% if p.finish %} &mdash; {{ p.finish }}{% endif %}</div>
-            </div>
-            <img class="project__image" src="{{ site.baseurl }}{{ p.url }}preview.jpg">
-          </div>
-        {% endfor %}
-      </div>
-
+    {% assign projects = (site.work | where: "type", "consultancy" | sort: 'start') | reverse %}
+    {% include project-grid.html %}
   </div>
 
   {% include masonry.html %}

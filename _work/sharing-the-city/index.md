@@ -1,5 +1,5 @@
 ---
-title: Spatial Inclusion for Housing and Communities
+title: Sharing the City
 start: 2009
 finish: 2010
 ---
