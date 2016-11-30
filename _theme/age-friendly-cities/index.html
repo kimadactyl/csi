@@ -1,0 +1,19 @@
+---
+title: Age Friendly Cities
+subtitle: Ageing, Health, Well-being and Environment
+images:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+  - 4.jpg
+  - 5.jpg
+---
+<div class="tabs-content" data-tabs-content="example-tabs">
+  <div class="tabs-panel is-active"  id="panel1">
+    {% capture my_include %}{% include_relative _part-1.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </div>
+  <div class="tabs-panel" id="panel2">
+    Nothing here!
+  </div>
+</div>
