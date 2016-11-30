@@ -1,4 +1,4 @@
-## Age Friendly Manchester
+### Age Friendly Manchester
 
 Manchester City became a member of the WHO Age Friendly Cities network in 2010, committing to improve social participation of older residents, and improve the quality of local communities for older people.  
 

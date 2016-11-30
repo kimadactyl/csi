@@ -6,12 +6,11 @@
         <h1 class="mtl">{{ page.title }}</h1>
         <h2><small>{{ page.subtitle }}</small></h2>
         <ul class="tabs mbm" data-tabs id="example-tabs">
-          <li class="tabs-title is-active">
-            <a href="#panel1" aria-selected="true">Tab 1</a>
-          </li>
-          <li class="tabs-title">
-            <a href="#panel2">Tab 2</a>
-          </li>
+          {% for menu in page.menu %}
+            <li class="tabs-title {% if forloop.index == 1 %}is-active{% endif %}">
+              <a href="#panel{{ forloop.index }}" {% if forloop.index == 0 %}aria-selected="true"{% endif %}>{{ menu }}</a>
+            </li>
+          {% endfor %}
         </ul>
       </div>
     </div>

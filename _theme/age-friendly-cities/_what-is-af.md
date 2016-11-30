@@ -1,4 +1,4 @@
-## What is an Age Friendly City?
+### What is an Age Friendly City?
 
 **The World Health Organisation (WHO) Age-Friendly Cities programme is a global movement aiming to improve the experiences of older people living in cities around the world.**
 

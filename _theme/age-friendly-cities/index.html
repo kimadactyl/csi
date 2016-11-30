@@ -7,13 +7,27 @@ images:
   - 3.jpg
   - 4.jpg
   - 5.jpg
+menu:
+  - What is Age Friendly?
+  - Research Questions
+  - Old Moat
+  - Age Friendly Manchester
 ---
 <div class="tabs-content" data-tabs-content="example-tabs">
-  <div class="tabs-panel is-active"  id="panel1">
-    {% capture my_include %}{% include_relative _part-1.md %}{% endcapture %}
+  <div class="tabs-panel is-active" id="panel1">
+    {% capture my_include %}{% include_relative _what-is-af.md %}{% endcapture %}
     {{ my_include | markdownify }}
   </div>
   <div class="tabs-panel" id="panel2">
-    Nothing here!
+    {% capture my_include %}{% include_relative _integration.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </div>
+  <div class="tabs-panel" id="panel3">
+    {% capture my_include %}{% include_relative _old-moat.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </div>
+  <div class="tabs-panel" id="panel4">
+    {% capture my_include %}{% include_relative _af-manchester.md %}{% endcapture %}
+    {{ my_include | markdownify }}
   </div>
 </div>
