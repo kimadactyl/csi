@@ -11,6 +11,12 @@
       </div>
       <div class="small-12 medium-8 columns">
         {{ content }}
+
+        {% if page.pdf %}
+          <div id="pdf-viewer" class="mbl"></div>
+          <script src="{{ site.baseurl }}/js/pdfobject.min.js"></script>
+          <script>PDFObject.embed("./{{ page.pdf }}", "#pdf-viewer");</script>
+        {% endif %}
       </div>
       <div class="small-12 medium-4 columns">
         <img src="./preview.jpg">

@@ -3,6 +3,7 @@ title: "Manchester: A Tale of Two Cities"
 start: 2012
 finish: 2013
 type: ma-yearbook
+pdf: a-tale-of-two-cities.pdf
 ---
 
 MSA's student yearbook for 2013 leavers.
@@ -26,5 +27,3 @@ opportunities which the occupants of affluent places tend to enjoy. In
 a city where we teach and learn how to make it beautiful and useful,
 we acknowledge the paradox that if architecture does nothing to serve
 wider society then we all, every day, suffer a poorer city.
-
-<a class="button" href="https://issuu.com/stefanwhite/docs/msap_year_book_2013_single_page">Read this yearbook on issuu.com</a>

@@ -6,6 +6,7 @@ age-friendly: true
 partners:
   - Age Friendly UK
   - RIBA
+pdf: age-friendly-handbook.pdf
 ---
 
 A pocket-sized reference for designers, architects and artists looking to help create age-inclusive/age-friendly cities developed with Age UK and the RIBA.

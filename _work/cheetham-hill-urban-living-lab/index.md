@@ -3,6 +3,7 @@ title: Cheetham Hill Urban Living Lab
 start: 2014
 type: consultancy
 age-friendly: true
+pdf: cheetham-hill.pdf
 ---
 
 An urban design and community engagement project exploring dimensions of spatial exclusion in North Manchester.

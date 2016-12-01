@@ -3,6 +3,7 @@ title: "Not Content: Projects for a Shared City"
 start: 2009
 finish: 2013
 type: ma-yearbook
+pdf: not-content.pdf
 ---
 
 Manchester School of Architecture Projects review of the _Sharing the City_ project, 2009-2013.
