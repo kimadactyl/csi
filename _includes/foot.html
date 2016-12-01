@@ -4,9 +4,13 @@
       <li><a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i>@{{ site.twitter }}</a></li>
       <li><a href="https://github.com/cSIDr"><i class="fa fa-github"></i>@cSIDr</a></li>
     </ul>
-    <ul class="menu quiet">
-      {% include nav.html %}
-    </ul>
+    <div class="row small-up-2 medium-up-4 large-up-6"  data-equalizer data-equalize-on="medium">
+      {% for org in site.data.organisations %}
+        <div class="column text-center" data-equalizer-watch>
+          <img class="org-logo" src="{{ site.baseurl }}/images/logos/{{ org.logo }}">
+        </div>
+      {% endfor %}
+    </div>
   </footer>
   </div><!-- end .content -->
 
