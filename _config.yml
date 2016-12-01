@@ -1,7 +1,7 @@
 name: Center for Spatial Inclusion
 brand: Centre for Spatial Inclusion
 description: Designing cities for everybody.
-url: http://kimadactyl.github.io/csi-site/
+url: http://kimadactyl.github.io/csi/
 email: s.white@mmu.ac.uk
 twitter: TheMSArch
 github: kimadactyl
@@ -9,7 +9,7 @@ author: Kim Foale
 year: 2016
 markdown: kramdown
 destination: docs
-baseurl: /csi-site
+baseurl: /csi
 exclude:
   - node_modules
 collections:
