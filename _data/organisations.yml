@@ -1,12 +1,18 @@
 - name: Manchester School of Architecture
   logo: msa.jpg
+  url: http://www.msa.ac.uk/
 - name: Manchester Metropolitan University
   logo: mmu.png
+  url: http://www2.mmu.ac.uk/
 - name: Southway Housing Trust
   logo: southway.jpg
+  url: http://www.southwayhousing.co.uk/
 - name: Ambition for Aging
   logo: afa.jpg
+  url: http://www.ambitionforageing.org.uk/
 - name: Lottery Funded
   logo: lottery.jpg
+  url: https://www.biglotteryfund.org.uk/
 - name: Age Friendly Manchester
   logo: age-friendly.jpg
+  url: http://www.manchester.gov.uk/info/200091/older_people/7116/our_age-friendly_work
