@@ -2,7 +2,7 @@
 
 **In 2012, the ‘Old Moat in an Age Friendly Manchester’ project was commissioned by Southway Housing Trust (a community based housing provider and social enterprise that owns and manages half of the stock in the area) in partnership with the Manchester City Council (MCC) ‘Age Friendly Manchester’ programme (AFM).**
 
-The ‘Old Moat in an Age Friendly Manchester’ project was undertaken by the Centre for Spatial Inclusion at the Manchester School of Architecture (cSI@MSA) working with the Manchester Institute for Collaborative Research into Ageing (MICRA). It followed the research framework, conceptual principles and practical design guidance of the WHO AFCC programme, working with the local community to make the Old Moat neighbourhood more Age-friendly.
+The ‘Old Moat in an Age Friendly Manchester’ project was undertaken by the Centre for PHASE at the Manchester School of Architecture, working with the Manchester Institute for Collaborative Research into Ageing (MICRA). It followed the research framework, conceptual principles and practical design guidance of the WHO AFCC programme, working with the local community to make the Old Moat neighbourhood more Age-friendly.
 
 #### Manchester
 
@@ -26,4 +26,4 @@ A key enabling objective of our approach was to increase resident participation 
 
 The project attempted to do this through the co-creation of a neighbourhood ‘action plan’ involving both residents and institutional stakeholders in its preparation and implementation. This ‘action plan’ was a device developed to gather and reconcile explorations into the lived experience of older residents from across multiple WHO domains so that findings could be discussed and shared and developed into proposals for interventions.
 
-Rather than a process of ‘consultation’, the co- production of this action plan enabled residents to be active in designing a programme of improvements that responded to their actual, specific experiences within the neighbourhood. A range of resident involvements instigated during the project continue at the time of writing and the Capability methodologies of the pilot are now being tested at a larger scale in the Greater Manchester ‘Ambition for Ageing’ project for which the MSA Spatial Inclusion research team are contributing as ‘Local Delivery Leads’ in Manchester.
+Rather than a process of ‘consultation’, the co- production of this action plan enabled residents to be active in designing a programme of improvements that responded to their actual, specific experiences within the neighbourhood. A range of resident involvements instigated during the project continue at the time of writing and the Capability methodologies of the pilot are now being tested at a larger scale in the Greater Manchester ‘Ambition for Ageing’ project for which the MSA PHASE research team are contributing as ‘Local Delivery Leads’ in Manchester.

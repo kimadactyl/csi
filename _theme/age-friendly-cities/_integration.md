@@ -28,7 +28,7 @@ These issues can be framed as research questions as follows:
 What is the role of the specificity of place in evidence bases, policy frames and intervention propositions?
 
  * MAFN has developed a mixed-methods research methodology with a place-specific emphasis involving a multi-disciplinary examination of place and community
- * The MMU Centre for Spatial Inclusion is developing a conceptual framework for Age Friendly Cities and Neighbourhood research using a capability model and a theory of affect.
+ * PHASE is developing a conceptual framework for Age Friendly Cities and Neighbourhood research using a capability model and a theory of affect.
 
 #### What is the role of individual (community and institutional) agency in evidence bases, policy frames and intervention propositions?
 

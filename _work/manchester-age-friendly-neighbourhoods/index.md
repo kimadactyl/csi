@@ -9,7 +9,7 @@ type: consultancy
 
 We are the Manchester Age-friendly Neighbourhoods Team, a group aiming to bring people together to develop plans to help make the neighbourhoods of Burnage, Moston & New Moston, Hulme & Moss Side and Miles Platting better for older residents
 
-Manchester Age Friendly Neighbourhoods is part of a Greater Manchester Ambition for Ageing Programme. Ambition for Ageing in Manchester is coordinated by the Manchester Age Friendly Neighbourhood team (MAFN) based in the centre for Spatial Inclusion at the Manchester School of Architecture at MMU in partnership with Southways Housing Trust. MAFN are a multi-disciplinary team of researchers, urban designers, a health and social care manager, architects and community development workers who will be co-researching with residents about how Age Friendly their neighbourhood is now and how to make it better.
+Manchester Age Friendly Neighbourhoods is part of a Greater Manchester Ambition for Ageing Programme. Ambition for Ageing in Manchester is coordinated by the Manchester Age Friendly Neighbourhood team (MAFN) based in PHASE at the Manchester School of Architecture at MMU in partnership with Southways Housing Trust. MAFN are a multi-disciplinary team of researchers, urban designers, a health and social care manager, architects and community development workers who will be co-researching with residents about how Age Friendly their neighbourhood is now and how to make it better.
 
 We are working in the following neighbourhoods:
 
